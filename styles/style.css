@@ -41,9 +41,10 @@ li{
 /*APRESENTAÇÃO*/
 
 .foto_usuario{
-    width: 150px;
-    margin-top: 100px;
+    width: 300px;
+    margin-top: 110px;
     margin-bottom: 40px;
+    border-radius: 55%;
     
 }
 
@@ -96,8 +97,8 @@ h1,h2{
     margin-left: 424px;
     margin-bottom: 120px;*/
     
-    font-size: 16px;
-    line-height: 22.4px;
+    font-size: 18px;
+    line-height: 23px;
     color:#49BFB3;
 
 }
