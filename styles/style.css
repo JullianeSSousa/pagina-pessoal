@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+/* css do home */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+body{
+    font-family: "Ubuntu", system-ui;
+    background-color: black;
+
+}
+
+/*MENU*/
+
+.menu{
+    background-color: #4B0082;
+    padding: 25px;
+    
+   
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    
+    
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/*APRESENTAÇÃO*/
+
+.foto_usuario{
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.nav_bar{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+.fundo_principal{
+    background-color:black;
+
+}
+
+.informacao{
+    display: flex;
+    justify-content:center;
+    
+}
+h1,h2{
+    padding: 5px; /* Remove a margem padrão */
+}
+
+.titulo__principal{
+    
+    color: #7204c1;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.titulo__secundario{
+    color: #d6bfff;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.apresentacao{
+    text-align: center;
+    padding:13px 250px 20px 250px;
+    height: 300px;
+   
+
+  /*  width: 594px;
+    height: 124px;
+
+    margin-left: 424px;
+    margin-bottom: 120px;*/
+    
+    font-size: 16px;
+    line-height: 22.4px;
+    color:#49BFB3;
+
+}
+
+/*FORMAÇÃO*/
+
+
+.experiencias{
+    background-color: #d6bfff;
+    height: 500px;
+
+}
+
+
+.titulo_apresentacao_e{
+    text-align: center;
+    padding:130px 0px 50px;
+    width: 100%; 
+    font-size: 44px;
+    color: #004d45;
+
+}
+
+.subtitulo_apresentacao{
+    text-align: center;
+    color: #828282;
+    font-size: 28px;
+    line-height: 21.79px;
+    padding:23px 570px 20px 570px;
+}
+
+
+.paragrafo{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+.paragrafo_sub{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 18px;
+
+    font-size: 18px;
+}
+
+
+
+.formacao{
+    background-color: white;
+    height: 579px;
+
+}
+
+
+.titulo_apresentacao{
+    text-align: center;
+    padding:130px 0px 50px;
+    width: 100%; 
+    font-size: 44px;
+    color: #49BFB3;
+}
+
+.subtitulo_apresentacao_formacao{
+    color: #828282;
+    font-size: 16px;
+    line-height: 21.79px;
+    padding-top: 40px;
+    padding-left: 500px;
+}
+
+.paragrafo_formacao{
+    padding-left: 505px;
+    gap: 10px;
+    font-size: 16px;
+}
+.links{
+    padding-left: 505px;
+    gap: 10px;
+    
+}
+.link_formacao{
+    font-style: bold;
+    color: #5A53D8;
+    font-size: 16px;
+}
+
+/*TECNOLOGIAS*/
+
+.container-icones{
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    padding-top: 5%;
+    height: 300px;
+    
+}
+
+.icon_img{
+    width: 100px;
+    
+}
+
+
+
+.titulo_tecnologias{
+    width: 363.45px;
+    margin-bottom: 15rem;
+    padding-top: 76.1px;
+    padding-left: 300px;
+    font-size: 24px;
+    line-height: 32.68px;
+    color: #49BFB3;
+
+}
+
+
+
+
+
+
+
+/*RODAPÉ*/
+
+
+
+#contatos{
+    background-color: #4B0082;
+    padding: 30px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.rodape_itens span a{
+    color: white;
+}
+
+.rodape_itens{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rodape_icon{
+    width: 48px;
+    margin-right: 15px;
+}
