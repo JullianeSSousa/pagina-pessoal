@@ -1,3 +1,11 @@
+
+Link/Ip da instância para acessar a página: http://18.231.36.185/
+
+
+
+Passo a Passo para a criação do projeto
+
+
 1. Criar uma Instância EC2 com Ubuntu
 Passo a passo:
 Acesse o painel AWS EC2:
